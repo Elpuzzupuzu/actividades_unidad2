@@ -1,0 +1,56 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            margin-bottom: 5px;
+        }
+
+        iframe {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        /* Estilos para el contenedor flex */
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        /* Estilos para los elementos flex dentro del contenedor */
+        .flex-container > div {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        /* Estilos para las etiquetas */
+        .flex-container label {
+            margin-bottom: 5px;
+        }

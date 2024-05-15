@@ -1,0 +1,49 @@
+body{
+
+    width: 1000px;
+    
+
+
+}
+
+main{
+    width: 800px;
+    height: 1000px;
+    background: lightblue;
+    border: 20px solid grey;
+    
+    justify-content: space-between;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+
+}
+
+
+.div_apellido,
+.div_nombre,
+.div_fecha,
+.div_lugar_nacimiento,
+.div_pais,
+.nacionalidad,
+.pasaporte,
+.pais_pasaporte,
+.Fechea_emision_pasaporte,
+.Fechea_venciminento_pasaporte {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+label {
+    margin-bottom: 5px; 
+}
+
+input,
+select {
+    width: 100%; 
+    padding: 5px; 
+}

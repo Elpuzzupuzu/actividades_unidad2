@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    width: 1000px;
+}
+
+nav{
+    height: 80px;
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 10px solid black;
+    border-bottom: none;
+}
+
+nav .box{
+    background: white;
+    border: 1px solid black;
+    width: 190px;
+    display: grid;
+    place-content: center;
+}
+
+header{
+    height: 300px;
+    background:blue;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    border: 10px solid black;
+    border-bottom: none;
+}
+
+header .banner{
+    width: 780px;
+    border: 1px solid black;
+    background: white;
+    display: grid;
+    place-content: center;
+}
+
+header .blocks{
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+header .blocks .block{
+    width: 100%;
+    border:1px solid black;
+    background: white;
+    height: 90px;
+    display: grid;
+    place-content: center;
+}
+
+main{
+    height: 500px;
+    display: flex;
+    background: silver;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 10px solid black;
+    border-bottom: none;
+}
+
+
+main aside{
+
+    width: 200px;
+    background: white;
+    border: 2px solid goldenrod;
+    display: grid;
+    place-content: center;
+
+}
+
+main article{
+
+    width: 560px;
+    background: white ;
+    border: 2px solid goldenrod;
+    display: grid;
+    place-content: center;
+    
+
+
+
+}
+
+
+footer{
+    height: 50px;
+    background: gold;
+    border: 10px solid black;
+}
